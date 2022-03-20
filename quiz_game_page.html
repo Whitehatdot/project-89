@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+    <title>The Math Quiz Game !</title>
+</head>
+<body>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <br>
+    <div class="container">
+    <center>
+     <h2 style="color:white;">The Math Quiz Game!</h2>
+     <br>
+     <h3 id="player_question"></h3>
+     <h3 id="player_answer"></h3>
+     <div id="output">  
+     </div>
+     <h3>Number 1</h3>
+     <input type="number" class="number" class="form-control" placeholder="Number 1 (pls type here)">
+     <h3>Number 2</h3>
+     <input type="number" class="number" class="form-control" placeholder="Number 2 (pls type here)">
+     <br><br>
+     <button id="j" class="btn btn-success" onclick="send()">Send</button>
+    </center>
+    </div>  
+    <script src="quiz_game_page.js"></script>
+</body>
+</html>

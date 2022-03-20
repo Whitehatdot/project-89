@@ -1,0 +1,43 @@
+body
+{
+	background: rgb(255, 0, 0);
+}
+
+	.login_div1
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#h{
+    font-family: 'Inspiration', cursive; 
+    color: antiquewhite;
+}
+#f{
+    border-radius: 50px;
+    height: 100px;
+}
+#b{
+    border-radius: 20px;
+    background-color: aquamarine;
+    color:black;
+    font-weight: 700;
+}
+.number
+{
+	width: 60%;
+    border-radius: 5px;
+}
+#j{
+    width: 250px;
+}
